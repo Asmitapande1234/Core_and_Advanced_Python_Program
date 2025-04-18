@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glenary's Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .menu-title {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 15px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+      margin-top: 5px;
+    }
+
+    video, audio {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Glenary's Restaurant</h1>
+    <nav>
+      <a href="#">Menu</a>
+      <a href="#">Popular Dishes</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="menu-title">Menu</div>
+    <div class="menu">
+
+      <!-- Pizza Supreme -->
+      <div class="card">
+        <img src="images/Screenshot 2025-04-18 182316.png" alt="Pizza Supreme">
+        <h3><b>Pizza Supreme</b></h3>
+        <p><i>Pizza base, mozzarella, bacon, onion, bell sauce, capsicum, pepperoni, mushrooms, olives</i></p>
+        <p class="price">Price: ₹250</p>
+        <video controls>
+          <source src="images/12888349_1080_1920_30fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <!-- Paneer Tikka -->
+      <div class="card">
+        <img src="images/Screenshot 2025-04-18 182332.png" alt="Paneer Tikka">
+        <h3><b>Paneer Tikka</b></h3>
+        <p><i>Paneer, Yogurt, Ground Spices, Bell Peppers, Onions, Baby Corn, Mushrooms</i></p>
+        <p class="price">Price: ₹300</p>
+        <video controls>
+          <source src="images/3196344-uhd_3840_2160_25fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
